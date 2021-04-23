@@ -1,0 +1,22 @@
+.file_list {
+  display: inline-block;
+}
+.file_list>div {
+  margin: 2px 10px 2px 0;
+  float: left;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border: 1px solid #eee;
+}
+.file_list>div:hover {
+  background-color: rgba(0, 0, 0, 0.03);
+}
+.file_list a {
+  margin: 5px;
+  display: inline-block;
+  color: inherit;
+}
+.file_list a span {
+  margin-left: 5px;
+}

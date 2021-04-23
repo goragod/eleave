@@ -1,0 +1,63 @@
+/* bar chart */
+
+.chart {
+  background-color: #FFF;
+}
+.chart .item {
+  min-width: 200px;
+  display: block;
+  background-color: #f9f9f9;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  overflow: hidden;
+  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.2);
+  position: relative;
+}
+.chart .label {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  text-align: center;
+  padding: 2px 0;
+}
+.chart .bar {
+  font-style: normal;
+  text-align: right;
+  background-color: #f9f9f9;
+  display: block;
+  white-space: nowrap;
+  padding: 2px 0;
+  min-width: 1px;
+}
+.chart .bar span {
+  padding: 0 5px;
+}
+.chart .bg0 .bar {
+  background-color: #fffac8;
+}
+.chart .bg1 .bar {
+  background-color: #ffd4e5;
+}
+.chart .bg2 .bar {
+  background-color: #d4ffea;
+}
+.chart .bg3 .bar {
+  background-color: #eecbff;
+}
+.chart .bg4 .bar {
+  background-color: #feffa3;
+}
+.chart .bg5 .bar {
+  background-color: #fabebe;
+}
+.chart .bg6 .bar {
+  background-color: #ffd8b1;
+}
+.chart .bg7 .bar {
+  background-color: #e6beff;
+}
+.chart .bg8 .bar {
+  background-color: #aaffc3;
+}
